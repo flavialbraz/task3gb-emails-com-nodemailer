@@ -5,11 +5,6 @@ const nodemailer = require('nodemailer')
 const port = 5000 // Porta em que será rodado o servidor
 
 
-
-
-
-
-
 app.use(express.static('public')) 
 app.use(express.json())  
 
@@ -21,8 +16,6 @@ app.get('/', (req, res) => {
 app.post('/', (req, res) => {
 
 // Atualize as informações abaixo. Para testar a aplicação utilize o site: mailtrap.io
-
-
     const transporter = nodemailer.createTransport({
         host: "SMTP",
         port: "PORT",
@@ -59,7 +52,6 @@ app.post('/', (req, res) => {
     })
   
 }) 
-
 
 app.listen(port, () => {
     console.log("Servidor está rodando em: localhost:" + port)
