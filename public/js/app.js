@@ -27,7 +27,7 @@ formcontact.addEventListener('submit', (ev) => {
             alert("Email enviado")
             formcontact.reset()
         } else {
-            alert("Não foi possível enviar o formulário. Tente novamente")
+            // alert("Não foi possível enviar o formulário. Tente novamente")
             console.log("Algo de errado aconteceu. Verifique se o smtp no arquivo -server.js-, a partir da linha 9 está configurado corretamente")
         }
     }
