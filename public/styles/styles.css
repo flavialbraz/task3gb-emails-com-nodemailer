@@ -1,0 +1,164 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+body {
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background:#000;
+}
+ 
+.container input {
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+    outline: none;
+    background: unset;
+    border: 1px solid #ffffff42;
+    border-radius: 100px;
+    color: #fff;
+    font-family: 'Inter';
+}
+
+.container label, .container legend, .container textarea {
+    width: 100%;
+    display: block;
+    margin-bottom: 0rem;
+}
+
+.container legend {
+    margin-bottom: 2rem;
+}
+
+.container textarea {
+    margin-bottom: 2rem;
+    padding: 1.4rem;
+    outline: none;
+    background: unset;
+    border: 1px solid #ffffff42;
+    border-radius: 21px;
+    color: #fff;
+    font-family: 'Inter';
+    height: 200px;
+}
+
+main.container button {
+    padding: 1rem 3rem;
+    cursor: pointer;
+    border: 1px solid #ffffff5e;
+    border-radius: 100px;
+    font-family: Inter, sans-serif;
+    background: unset;
+    color: #fff;
+}
+
+form#formcontact {
+    width: 100%;
+}
+
+.topo-home {
+    height: 60vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    align-items: center;
+    background: url(../images/back1.png);
+    background-size: cover;
+    padding: 4rem;
+    background-attachment: fixed;
+}
+
+nav a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.topo-home h1 {
+    width: 100%;
+    display: block;
+    margin-bottom: 2rem;
+    font-size: 5rem;
+    font-weight: 200;
+}
+nav {
+    width: 90%;
+    margin: 2rem;
+    position: absolute;
+}
+
+nav a {
+    padding: 25px;
+    text-decoration: none;
+}
+
+.form-home {
+    height: 75vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    align-items: center;
+    background: url(../images/back2.png);
+    background-size: cover;
+    padding: 4rem;
+    background-attachment: fixed;
+}
+
+.form-home h1 {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: -1px;
+    width: 40%;
+}
+
+.form-contato {
+    width: 54%;
+}
+
+.container label {
+    display: none;
+}
+
+.container input::placeholder {
+    color: #fff;
+}
+
+.container textarea::placeholder {
+    color: #fff;
+}
+
+.container button:hover {
+    background: #ffffffbf;
+    color: #000;
+}
+
+
+@media screen and (max-width: 700px) {      
+    .topo-home {
+        height: 220vw;
+        padding: 2rem;
+    }
+
+    .form-home {
+        height: 275vw;
+        padding: 2rem;
+    }
+
+    .form-home h1, .form-contato {
+        width: 100%;
+        font-size: 2.5rem;
+        margin: 0rem 0rem 3rem 0rem;
+    }
+
+    .topo-home h1 {
+        font-size: 3.4rem;
+    }
+}
