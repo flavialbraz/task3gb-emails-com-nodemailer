@@ -43,7 +43,7 @@ Utilize mailtrap.io para realizar testes.
   <tr>
     <td align="center">
       <a>
-        <img src="https://images2.imgbox.com/13/d9/nQbQMpn8_o.png" width="120px;" alt="Foto de Flavia no GitHub"/><br>
+        <img src="https://avatars.githubusercontent.com/u/78583429?v=4" width="120px;" alt="Foto de Flavia no GitHub"/><br>
           <b>Flavia Braz </b><br>
             <a href="https://www.linkedin.com/in/flavialbraz/" alt="Linkedin">
   <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/ height="20"></a>
