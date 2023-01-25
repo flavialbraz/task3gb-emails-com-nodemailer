@@ -6,7 +6,7 @@
 
 
 # 📁 O projeto
-A aplica conecta o front (usando HTML) e o back (usando Node) para fazer o envio de e-mails.  
+A aplicação conecta o front (usando HTML) e o back (usando Node) para fazer o envio de e-mails.  
 
 
 
